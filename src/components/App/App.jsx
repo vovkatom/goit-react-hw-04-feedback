@@ -5,7 +5,7 @@ import { Notification } from '../Notification/Notification';
 import { Section } from '../Section/Section';
 import { Statistics } from '../Statistics/Statistics';
 
-function App() {
+function App () {
   const [options, setOptions] = useState({
     good: 0,
     neutral: 0,

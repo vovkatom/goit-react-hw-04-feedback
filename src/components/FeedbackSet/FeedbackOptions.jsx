@@ -11,7 +11,7 @@ export const FeedbackOptions = ({ options, handleFeedback }) => {
         return (
           <SettingsEl key={option}>
             <SettingsButton
-              type="button"
+              type='button'
               onClick={() => handleFeedback(option)}
               option={option}
             >
